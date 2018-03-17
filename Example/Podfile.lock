@@ -1,0 +1,21 @@
+PODS:
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Utils (0.1.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.0.0)
+  - Utils (from `../`)
+
+EXTERNAL SOURCES:
+  Utils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Utils: c1419856ac9382c80186c807b814446a14da86df
+
+PODFILE CHECKSUM: 7fcf19666c289acad7d196058d056c4a2048b538
+
+COCOAPODS: 1.2.0

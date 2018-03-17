@@ -1,7 +1,9 @@
-use_frameworks!
+
+platform :ios, '8.0'
 
 target 'Utils_Example' do
   pod 'Utils', :path => '../'
+  pod 'SDWebImage', '~> 4.0.0'
 
   target 'Utils_Tests' do
     inherit! :search_paths
